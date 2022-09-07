@@ -63,7 +63,7 @@
                 alert("Введіть задачу");
             }
         }
-
+// функция для работы с видео, остановка и запуск. Клавиша Pause / Play
         var video = document.getElementById("myVideo");
         var btn = document.getElementById("myBtn");
         function myFunction() {
