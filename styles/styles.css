@@ -1,0 +1,190 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Marck Script', cursive;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.task-list {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#start-message {
+    margin: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding: 3px 8px;
+    margin: 2px 10px;
+    width: 580px;
+}
+
+.task p {
+    margin-left: 4px;
+    font-size: 25px;
+    color: white;
+}
+
+
+.completed p {
+    text-decoration: line-through;
+}
+
+.input-panel {
+    width: 600px;
+    margin: 8px;
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-panel button {
+    padding: 4px;
+    width: 25%;
+    font-family: 'Marck Script', cursive;
+    font-size: 15px;
+}
+
+
+.input-panel input {
+    height: 28px;
+    padding: 4px;
+    width: 68%;
+    font-family: 'Marck Script', cursive;
+    font-size: 25px;
+}
+
+.container {
+    margin: 50px auto;
+    margin-top: 10%;
+    backdrop-filter: brightness(60%);
+}
+
+.lets {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 44px;
+    color: white;
+}
+
+.delete {
+    width: 30px;
+    height: 30px;
+}
+
+.list__delete {
+    padding: 0;
+    width: 108px;
+    height: 25px;
+    margin-left: auto;
+    border: none;
+    font-size: 15px;
+    font-family: 'Marck Script', cursive;
+}
+
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+
+#myBtn1 {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn1:hover {
+    background: #ddd;
+    color: black;
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    backdrop-filter: brightness(60%);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.return {
+    width: 30px;
+    height: 30px;
+}
+
+.divLets {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.delBtn {
+    padding: 4px;
+    width: 24%;
+    font-family: 'Marck Script', cursive;
+    font-size: 15px;
+    margin-left: 34%;
+}
+
+.delit {
+    padding: 4px;
+    width: 25%;
+    font-family: 'Marck Script', cursive;
+    font-size: 15px;
+}
+
+#delBtnCpecial {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#delBtnCpecial:hover {
+    background: #ddd;
+    color: black;
+}
