@@ -70,9 +70,11 @@ body {
 }
 
 .container {
-    margin: 50px auto;
-    margin-top: 10%;
+   margin: 50px auto;
+    margin-top: 7%;
     backdrop-filter: brightness(60%);
+    overflow: auto;
+    max-height: 460px;
 }
 
 .lets {
